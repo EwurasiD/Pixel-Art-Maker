@@ -1,0 +1,84 @@
+body,html {
+    height: 100vh;
+}
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", san-serif;
+    font-size: 16px;
+    font-weight: 100;
+    background-color: #eee;
+    color: darkorange;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0.5em;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.5);
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-weight: 400;
+    
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+   
+}
+
+label {
+    font-weight: 500;
+    color: #222;
+}
+
+input[type='number'] {
+    background-color: #666;
+    padding: 5px;
+    color: #fff;
+}
+
+input[type='submit'], input[type='reset'] {
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    padding: 5px;
+    background-color: darkorange;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.5);
+}
+
+input[type='submit']:hover, input[type='reset']:hover {
+   background-color: orange;
+}
+
+
+table, tr, td {
+    border: 1px solid #222;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 4px 6px 6px rgba(0,0,0,0.5);
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+} 
+
+
